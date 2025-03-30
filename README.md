@@ -6,4 +6,10 @@ pip install yt-dlp
 
 Желательна установка ffmpeg.
 
+Опционально можно использовать (например, для скачивания низкого качества mp4-видео с хорошим звуком):
+    ydl_opts = {'cookiefile':'cookies.txt',
+                'quality':'worstvideo',
+                'format':'mp4',
+                'merge-output-format':'mp4'}
+
 Другой проект, также скачивающий видео Яндекса через API: https://github.com/uglev/yadi.sk
